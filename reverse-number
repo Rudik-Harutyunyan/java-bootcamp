@@ -1,0 +1,11 @@
+Scanner scanner = new Scanner(System.in);
+
+        System.out.println("write a xxx number");
+
+        int num = scanner.nextInt();
+        int n1 = num / 100;
+        int n2 = num % 100 / 10;
+        int n3 = num % 10;
+        System.out.println(n3);
+        System.out.println(n2);
+        System.out.println(n1);
